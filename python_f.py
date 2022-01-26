@@ -53,6 +53,9 @@ print("added after forking")
 
 # thing 4
 print("writing 2:")
+<<<<<<< HEAD
 print("Barukh had some boots")
 print("ew boots")
+=======
+>>>>>>> 0fbe57d (aaa)
 print("writing 1:")
