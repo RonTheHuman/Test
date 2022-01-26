@@ -11,12 +11,18 @@ print("g")
 print("h")
 print("i")
 print("j")
+
+# thing seven
+
 print("k")
 
 # thing three
 
 print("completely new content")
-print("They move me in boxes")
+print("They move me in bokses")
+
+# thing six
+
 print("Now I know where the ducks go")
 print("They move me in boxes!")
 print("They move me in boxes!")
@@ -44,3 +50,5 @@ print("added after forking")
 # bagapau
 
 # thing 4
+
+print("writing 1:")
