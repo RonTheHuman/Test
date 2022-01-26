@@ -130,6 +130,7 @@ else:
 
 print()
 print()
+print()
 
 while(True):
     print("input function, using x as the variable: ")
