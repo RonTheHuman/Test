@@ -52,7 +52,7 @@ while True:
         lower_x = -1 
         upper_y = 1 
         lower_y = -1
-        break;
+        break
     elif inp == "n":
         print("enter lower x bound: ")
         while True:
@@ -116,18 +116,22 @@ else:
                         math.floor(graph_w*ratio_x/(ratio_x - 1)) + 1)]
 upper_x = x_points[-1]
 
+for x in range(4):
+    print(f"testing rebasing: {x}")
+
 # Creates a similar list for the y axis
 height = upper_y - lower_y
 if lower_y == 0:
     y_points = [y*height/graph_h for y in range(0, graph_h + 1)][::-1]
 elif upper_y == 0:
-    x_points = [x*height/graph_h for y in range(-graph_h, 1)][::-1]
+    x_points = [x*height/graph_h for x in range(-graph_h, 1)][::-1]
 else:
     ratio_y = upper_y/lower_y
     y_points = [y*height/graph_h for y in
                 range(math.floor(graph_h/(ratio_y - 1)),
                         math.floor(graph_h*ratio_y/(ratio_y - 1)) + 1)][::-1]
 
+print()
 print()
 print()
 
@@ -149,6 +153,10 @@ while(True):
             offset += 5 
     
     # Loops over a grid created from the two lists of x and y values.
+    ''' 
+    Its getting kinda tough to find ideas for these
+    definitely kinda tough.
+    '''
     for (x, y) in [(x, y) for y in y_points for x in x_points ]:
         try:
             # Both float and eval are used to catch complex numbers.
