@@ -11,6 +11,9 @@ print("g")
 print("h")
 print("i")
 print("j")
+
+# thing seven
+
 print("k")
 
 # thing three
