@@ -53,6 +53,7 @@ print("added after forking")
 
 # thing 4
 print("writing 3:")
+print("Why does this take so much")
 print("writing 2:")
 <<<<<<< HEAD
 print("Barukh had some boots")
