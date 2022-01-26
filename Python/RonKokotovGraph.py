@@ -116,6 +116,9 @@ else:
                         math.floor(graph_w*ratio_x/(ratio_x - 1)) + 1)]
 upper_x = x_points[-1]
 
+for  x in range(4):
+    print(f"testing rebasing: {x}")
+
 # Creates a similar list for the y axis
 height = upper_y - lower_y
 if lower_y == 0:
