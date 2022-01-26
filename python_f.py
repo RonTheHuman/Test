@@ -23,6 +23,7 @@ print("They move me in bokses")
 
 # thing six
 
+# thing eight
 print("Now I know where the ducks go")
 print("They move me in boxes!")
 print("They move me in boxes!")
