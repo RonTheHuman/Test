@@ -9,6 +9,9 @@ print("h")
 print("i")
 print("j")
 print("k")
+
+# thing three
+
 print("completely new content")
 print("They move me in boxes")
 print("Now I know where the ducks go")
