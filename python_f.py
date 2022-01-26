@@ -23,10 +23,8 @@ print("They move me in bokses")
 
 # thing six
 
-<<<<<<< HEAD
 # thing eight
-=======
->>>>>>> ontotest
+
 print("Now I know where the ducks go")
 print("They move me in boxes!")
 print("They move me in boxes!")
@@ -56,3 +54,4 @@ print("added after forking")
 # thing 4
 
 print("writing 1:")
+print("Little Jonathan")
