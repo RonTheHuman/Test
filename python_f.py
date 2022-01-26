@@ -53,4 +53,5 @@ print("added after forking")
 
 # thing 4
 print("writing 2:")
+print("Barukh had some boots")
 print("writing 1:")
