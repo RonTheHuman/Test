@@ -52,15 +52,7 @@ print("added after forking")
 # bagapau
 
 # thing 4
-print("writing 3:")
-print("Why does this take so much")
-print("Just end this")
 print("writing 2:")
-<<<<<<< HEAD
 print("Barukh had some boots")
 print("ew boots")
-=======
->>>>>>> 0fbe57d (aaa)
 print("writing 1:")
-print("Little Jonathan")
-print("ran in th emorning to the garden")
