@@ -16,7 +16,10 @@ print("k")
 # thing three
 
 print("completely new content")
-print("They move me in boxes")
+print("They move me in bokses")
+
+# thing six
+
 print("Now I know where the ducks go")
 print("They move me in boxes!")
 print("They move me in boxes!")
