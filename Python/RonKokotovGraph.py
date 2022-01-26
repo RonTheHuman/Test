@@ -52,7 +52,7 @@ while True:
         lower_x = -1 
         upper_y = 1 
         lower_y = -1
-        break;
+        break
     elif inp == "n":
         print("enter lower x bound: ")
         while True:
@@ -121,7 +121,7 @@ height = upper_y - lower_y
 if lower_y == 0:
     y_points = [y*height/graph_h for y in range(0, graph_h + 1)][::-1]
 elif upper_y == 0:
-    x_points = [x*height/graph_h for y in range(-graph_h, 1)][::-1]
+    x_points = [x*height/graph_h for x in range(-graph_h, 1)][::-1]
 else:
     ratio_y = upper_y/lower_y
     y_points = [y*height/graph_h for y in
