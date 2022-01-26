@@ -116,7 +116,7 @@ else:
                         math.floor(graph_w*ratio_x/(ratio_x - 1)) + 1)]
 upper_x = x_points[-1]
 
-for  x in range(4):
+for x in range(4):
     print(f"testing rebasing: {x}")
 
 # Creates a similar list for the y axis
@@ -153,6 +153,10 @@ while(True):
             offset += 5 
     
     # Loops over a grid created from the two lists of x and y values.
+    ''' 
+    Its getting kinda tough to find ideas for these
+    definitely kinda tough.
+    '''
     for (x, y) in [(x, y) for y in y_points for x in x_points ]:
         try:
             # Both float and eval are used to catch complex numbers.
